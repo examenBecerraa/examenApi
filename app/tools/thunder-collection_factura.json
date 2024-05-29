@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "factura",
+    "collectionId": "11875e51-0911-4610-ae2b-57e7edec5f97",
+    "dateExported": "2024-05-23T14:11:36.781Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "51fdfe61-a7e4-4814-880a-a72b888ec38f",
+            "colId": "11875e51-0911-4610-ae2b-57e7edec5f97",
+            "containerId": "",
+            "name": "mostrar",
+            "url": "localhost:3001/api/factura/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-23T13:34:55.272Z",
+            "modified": "2024-05-23T14:07:42.941Z",
+            "headers": []
+        },
+        {
+            "_id": "e17c0249-6c68-41e6-88d7-b77780a1ba2e",
+            "colId": "11875e51-0911-4610-ae2b-57e7edec5f97",
+            "containerId": "",
+            "name": "listar",
+            "url": "localhost:3001/api/factura",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-23T13:35:03.438Z",
+            "modified": "2024-05-23T13:36:33.303Z",
+            "headers": []
+        },
+        {
+            "_id": "1262bbea-dafa-4aeb-9d11-a893df3e409e",
+            "colId": "11875e51-0911-4610-ae2b-57e7edec5f97",
+            "containerId": "",
+            "name": "crear",
+            "url": "localhost:3001/api/factura",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-23T13:35:09.606Z",
+            "modified": "2024-05-23T13:48:03.463Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"producto\":\"Arroz\",\n  \"precio\":\"2500\",\n  \"fecha\":\"21/04/2024\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8460feb4-52a1-43ca-ae55-f76dbf334b28",
+            "colId": "11875e51-0911-4610-ae2b-57e7edec5f97",
+            "containerId": "",
+            "name": "modificar",
+            "url": "localhost:3001/api/factura",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-23T13:35:19.886Z",
+            "modified": "2024-05-23T13:48:37.941Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"producto\":\"Arroz\",\n  \"precio\":\"2500\",\n  \"fecha\":\"21/04/2024\",\n  \"id\":\"1\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a42e7b06-eb83-4af0-a661-88b9298de86a",
+            "colId": "11875e51-0911-4610-ae2b-57e7edec5f97",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "localhost:3001/api/factura",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-23T13:35:28.710Z",
+            "modified": "2024-05-23T14:05:18.591Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"1\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "uy8aOZiTq_lb23CduEw_9wnj6KHrA0SpJk_X2lWagOeDyvoEbU69yXK03AZFl-M-kuhyqEXZE6N7pj_oIGbYWw"
+}

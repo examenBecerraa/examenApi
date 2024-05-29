@@ -1,0 +1,10 @@
+1. Montarlo en github.
+2. Post, Get, Put, Delete.
+3. Crear base de datos -> tabbla, minimo 1 campo.
+4. Exportar la base de datos y guardar en el proyecto.
+5. Crear la collage y guardar en el proyecto.
+6. No montar la carpeta node_module a github.
+7. Construir el distribuidor -dist.
+8. Sacar apuntes.
+9. Ultimo commit se llama "entrega final 2".
+10. Copiar todas las condiciones y subirlas al proyecto
